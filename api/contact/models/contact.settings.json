@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "messages",
+  "collectionName": "contacts",
   "info": {
-    "name": "Messages"
+    "name": "Contact"
   },
   "options": {
     "increments": true,
@@ -16,10 +16,10 @@
     "lastName": {
       "type": "string"
     },
-    "Email": {
+    "email": {
       "type": "email"
     },
-    "Message": {
+    "message": {
       "type": "richtext"
     }
   }
