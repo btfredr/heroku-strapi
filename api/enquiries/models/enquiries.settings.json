@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "enquiries",
+  "info": {
+    "name": "Enquiries",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "fee": {
+      "type": "decimal"
+    },
+    "total": {
+      "type": "decimal"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
