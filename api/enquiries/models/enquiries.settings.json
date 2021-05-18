@@ -20,9 +20,6 @@
     "price": {
       "type": "decimal"
     },
-    "fee": {
-      "type": "decimal"
-    },
     "total": {
       "type": "decimal"
     },
